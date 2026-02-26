@@ -52,6 +52,22 @@ AI is used meaningfully to transform unstructured personal reflections into acti
 5. Journal data stored securely (Firestore optional)
 6. Frontend visualizes emotional trend and insights
 
+### 🔄 Architecture Flow Diagram
+User Voice Input
+↓
+Google Speech-to-Text
+↓
+Transcribed Text
+↓
+Google Gemini API
+↓
+Emotion Analysis
+(Sentiment + Dominant Emotion + Summary)
+↓
+Cloud Firestore (Secure Storage)
+↓
+Mood Trend Graph (Frontend)
+
 ---
 
 ## 🚀 How to Run the Project
